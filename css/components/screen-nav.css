@@ -1,0 +1,18 @@
+.screen-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 18px 0px;
+  background-color: #f9f9fa;
+  border-top: var(--default-border);
+}
+
+.screen-nav i {
+  opacity: 0.6;
+}
+
+.screen-nav__column {
+  position: relative;
+}

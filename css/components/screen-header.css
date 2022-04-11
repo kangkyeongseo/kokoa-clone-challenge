@@ -1,0 +1,22 @@
+.screen-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.screen-header__title {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.screen-header__column:last-child span {
+  margin-left: 18px;
+  opacity: 0.85;
+}

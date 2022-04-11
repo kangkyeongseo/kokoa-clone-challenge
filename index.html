@@ -9,30 +9,32 @@
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__column">
-        <span> No Service </span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
-        <span class="status-bar__timestamp">18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>82%</span>
-        <i class="fas fa-battery-three-quarters fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
+        <div class="status-bar__column">
+          <span> No Service </span>
+          <span><i class="fas fa-wifi"></i></span>
+        </div>
+        <div class="status-bar__column">
+          <span class="status-bar__timestamp">18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>82%</span>
+          <span><i class="fas fa-battery-three-quarters fa-lg"></i></span>
+          <span><i class="fas fa-bolt"></i></span>
+        </div>
     </div>
-    <header class="login-header">
-      <h1 class="login-header__title">Welcome to KokoaTalk</h1>
-      <p class="login-header__text">If you have a Kokoa Account,</br>log in with your email or phone number.</p>
-    </header>
-    <form class="login-form">
-        <input type="text" placeholder="Email or phone number">
-        <input type="password" placeholder="Password">
-        <input class="login-form__btn" type="submit" value="Log In">
-        <input class="login-form__btn" type="submit" value="Sign up">
-        <a href="#">Find Kokao Account or Password</a>
-    </form>
+    <main>
+        <header class="login-header">
+            <h1 class="login-header__title">Welcome to KokoaTalk</h1>
+            <p class="login-header__text">If you have a Kokoa Account,</br>log in with your email or phone number.</p>
+        </header>
+        <form action="friends.html" class="login-form">
+            <input type="text" placeholder="Email or phone number">
+            <input type="password" placeholder="Password">
+            <input class="login-form__btn" type="submit" value="Log In">
+            <input class="login-form__btn" type="submit" value="Sign up">
+            <a href="#">Find Kokao Account or Password</a>
+        </form>
+    </main>
   </body>
   <script
     src="https://kit.fontawesome.com/1e841ee03e.js"

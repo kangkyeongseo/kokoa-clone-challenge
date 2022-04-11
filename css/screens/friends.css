@@ -1,0 +1,38 @@
+#friends .screen-nav__column:first-child i {
+  opacity: 0.9;
+}
+
+.friends-link {
+  padding: 10px 0px;
+  margin-top: 78px;
+  background-color: #fafafa;
+}
+
+.friends-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.friends-link i {
+  opacity: 0.25;
+}
+
+.friends-link span {
+  margin: 0px 7px;
+  opacity: 0.9;
+}
+
+.friends-channel {
+  border-top: var(--default-border);
+  margin-top: 10px;
+}
+
+.friends-channel__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  opacity: 0.5;
+  font-size: 14px;
+}
