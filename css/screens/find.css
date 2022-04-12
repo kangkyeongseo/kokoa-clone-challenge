@@ -1,0 +1,150 @@
+#find .screen-nav__column:nth-child(3) i {
+  opacity: 0.8;
+}
+
+#find main {
+  margin-top: 78px;
+}
+
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon span:last-child {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+}
+
+.find-recommended,
+.find-openchat {
+  border-top: var(--default-border);
+  padding: 10px 0px;
+}
+
+.find-recommended__title {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.find-recommended__content {
+  text-align: center;
+  opacity: 0.5;
+  padding: 80px 0px;
+}
+
+.find-openchat__title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.find-openchat__title span:first-child {
+  opacity: 0.6;
+}
+
+.find-openchat__title span:last-child {
+  opacity: 0.5;
+}
+
+.find-openchat__title span i {
+  margin-left: 5px;
+}
+
+.find-openchat__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+  border-bottom: var(--default-border);
+}
+
+.find-openchat__content__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.find-openchat__content__column > span {
+  margin-bottom: 5px;
+}
+
+.find-openchat__name {
+  font-size: 18px;
+}
+
+.find-openchat__text {
+  opacity: 0.6;
+  letter-spacing: 0.5px;
+}
+
+.find-openchat__member {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.find-openchat__member img {
+  width: 20px;
+  height: 20px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+
+.find-openchat__count {
+  opacity: 0.5;
+  letter-spacing: 0.5px;
+}
+
+.find-openchat__active {
+  color: #ff7dcd;
+}
+
+.find-openchat__cover {
+  position: relative;
+}
+
+.find-openchat__cover img {
+  width: 90px;
+  height: 90px;
+  border-radius: 7px;
+}
+
+.find-openchat__heart {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 55px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.find-openchat__heart i {
+  font-size: 10px;
+  margin-right: 3px;
+}
+
+.bar {
+  display: block;
+  width: 1px;
+  height: 13px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0px 5px;
+}
