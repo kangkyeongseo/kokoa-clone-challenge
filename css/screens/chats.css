@@ -1,0 +1,7 @@
+#chats .screen-nav__column:nth-child(2) i {
+  opacity: 0.8;
+}
+
+#chats main {
+  margin-top: 78px;
+}
