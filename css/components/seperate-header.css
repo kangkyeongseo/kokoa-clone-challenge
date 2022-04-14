@@ -1,4 +1,4 @@
-.screen-header {
+.seperate-header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -11,18 +11,16 @@
   z-index: 2;
 }
 
-.screen-header__column {
+.seperate-header__column {
   display: flex;
   align-items: center;
 }
 
-.screen-header__title {
+.seperate-header__title {
   font-size: 23px;
   font-weight: 600;
 }
 
-.screen-header__column:last-child > span {
-  position: relative;
-  margin-left: 18px;
+.seperate__column i {
   opacity: 0.85;
 }

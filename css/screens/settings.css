@@ -1,0 +1,19 @@
+#settings main {
+  margin-top: 87px;
+}
+
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  border-bottom: var(--default-border);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.setting-item__column i {
+  margin-right: 15px;
+}
+
+.setting-item__column:nth-child(2) {
+  color: rgba(0, 0, 0, 0.6);
+}
