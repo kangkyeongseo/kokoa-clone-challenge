@@ -9,6 +9,8 @@
 @import "components/screen-nav.css";
 @import "components/circle-alarm.css";
 @import "components/seperate-header.css";
+@import "components/today-container.css";
+@import "components/shop-container.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -19,6 +21,10 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #191919;
@@ -26,5 +32,73 @@ body {
 
 main {
   padding: 0px 20px;
-  margin-bottom: 69px;
+  margin-bottom: 70px;
+}
+
+.media-container__box:nth-child(2) {
+  display: none;
+}
+
+.today-container {
+  background-color: #f9f9f9;
+}
+
+.shop-container {
+  background-color: #f9f9f9;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .media-container {
+    width: 100%;
+    display: flex;
+  }
+
+  .media-container__box {
+    width: 50%;
+  }
+
+  .media-container__box:nth-child(2) {
+    display: block;
+    height: 100vh;
+    margin-top: 25px;
+  }
+
+  .today-container {
+    height: 50vh;
+  }
+
+  .shop-container {
+    height: 50vh;
+  }
+
+  main {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .media-container {
+    width: 100%;
+    display: flex;
+  }
+
+  .media-container__box:first-child {
+    width: 33%;
+  }
+
+  .media-container__box:nth-child(2) {
+    width: 66%;
+    height: 100vh;
+    display: flex;
+  }
+
+  .today-container {
+    width: 50%;
+    height: 100vh;
+  }
+
+  .shop-container {
+    width: 50%;
+    height: 100vh;
+  }
 }

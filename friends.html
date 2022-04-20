@@ -22,73 +22,185 @@
         <span><i class="fas fa-bolt"></i></span>
       </div>
     </div>
-    <header class="screen-header">
-        <div class="screen-header__column">
-            <h3c class="screen-header__title">Friends</h3>
+    <div class="media-container">
+      <div class="media-container__box">
+        <header class="screen-header">
+            <div class="screen-header__column">
+                <h3c class="screen-header__title">Friends</h3>
+            </div>
+            <div class="screen-header__column">
+                <span><i class="fas fa-search fa-lg"></i></span>
+                <span><i class="fas fa-music fa-lg"></i></span>
+                <span><i class="fas fa-cog fa-lg"></i></span>
+            </div>
+        </header>
+        <div class="friends-link">
+            <a href="#">
+                <i class="fas fa-info-circle"></i>
+                <span>Friends' Names Display</span>
+                <i class="fas fa-angle-right"></i>
+            </a>
         </div>
-        <div class="screen-header__column">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
-        </div>
-    </header>
-    <div class="friends-link">
-        <a href="#">
-            <i class="fas fa-info-circle"></i>
-            <span>Friends' Names Display</span>
-            <i class="fas fa-angle-right"></i>
-        </a>
-    </div>
-    <main>
-       <div class="user-component">
-           <div class="user-component__column">
-               <img class="user-component__avatar user-component__avatar--big" src="images/avatar.jpeg">
-               <div class="user-component__info">
-                   <span class="user-component__title">파이리</span>
-                   <!--<span class="user-component__text"></span>-->
-               </div>
-           </div>
-           <!--<div class="user-component__column">
-               <span></span>
-               <span></span>
-           </div>-->
-       </div>
-       <div class="friends-channel">
-           <div class="friends-channel__header">
-               <span class="friends-channel__title">Channel</span>
-               <span><i class="fas fa-angle-up"></i></span>
-           </div>
-       </div>
-       <div class="user-component">
-        <div class="user-component__column">
-            <img class="user-component__avatar user-component__avatar--small" src="images/avatar.jpeg">
-            <div class="user-component__info">
-                <span class="user-component__title">파이리</span>
-                <!--<span class="user-component__text"></span>-->
+        <main>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--big" src="images/avatar.jpeg">
+                    <div class="user-component__info">
+                        <span class="user-component__title">파이리</span>
+                        <!--<span class="user-component__text"></span>-->
+                    </div>
+                </div>
+                <!--<div class="user-component__column">
+                    <span></span>
+                    <span></span>
+                </div>-->
+            </div>
+            <div class="friends-channel">
+                <div class="friends-channel__header">
+                    <span class="friends-channel__title">Channel</span>
+                    <span><i class="fas fa-angle-up"></i></span>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--small" src="images/avatar.jpeg">
+                    <div class="user-component__info">
+                        <span class="user-component__title">파이리</span>
+                        <!--<span class="user-component__text"></span>-->
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span>2<i class="fas fa-angle-right"></i></span>
+                <!--<span></span>-->
+                </div>
+            </div>
+            <div class="friends-channel">
+                <div class="friends-channel__header">
+                    <span class="friends-channel__title">Friedns</span>
+                    <span><i class="fas fa-angle-up"></i></span>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--small" src="images/avatar.jpeg">
+                    <div class="user-component__info">
+                        <span class="user-component__title">파이리</span>
+                        <!--<span class="user-component__text"></span>-->
+                    </div>
+                </div>
+                <!-- <div class="user-component__column">
+                    <span>2<i class="fas fa-angle-right"></i></span>
+                    <span></span>
+                </div> -->
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--small" src="images/avatar.jpeg">
+                    <div class="user-component__info">
+                        <span class="user-component__title">파이리</span>
+                        <!--<span class="user-component__text"></span>-->
+                    </div>
+                </div>
+                <!-- <div class="user-component__column">
+                    <span>2<i class="fas fa-angle-right"></i></span>
+                    <span></span>
+                </div> -->
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--small" src="images/avatar.jpeg">
+                    <div class="user-component__info">
+                        <span class="user-component__title">파이리</span>
+                        <!--<span class="user-component__text"></span>-->
+                    </div>
+                </div>
+                <!-- <div class="user-component__column">
+                    <span>2<i class="fas fa-angle-right"></i></span>
+                    <span></span>
+                </div> -->
+            </div>
+        </main>
+        <nav class="screen-nav">
+            <a class="screen-nav__column" href="friends.html">
+                <span><i class="fas fa-user fa-2x"></i></span>
+            </a>
+            <a class="screen-nav__column" href="chats.html">
+                <span><i class="fas fa-comment fa-2x"></i></span>
+                <span class="circle-alarm circle-alarm--number">1</span>
+            </a>
+            <a class="screen-nav__column" href="find.html">
+                <span><i class="fas fa-search fa-2x"></i></span>
+            </a>
+            <a class="screen-nav__column" href="more.html">
+                <span><i class="fas fa-ellipsis-h fa-2x"></i></span>
+                <span class="circle-alarm circle-alarm--dot"></span>
+            </a>
+        </nav>
+      </div>
+      <div class="media-container__box">
+        <div class="today-container">
+            <div class="today-container__weather">
+                <span class="todat-weatger__city">고양</span>
+                <div class="today-weather">
+                    <div class="today-weather__column">
+                        <i class="fas fa-cloud fa-2x"></i>
+                    </div>
+                    <div class="today-weather__column">
+                        <span>12°</span>
+                    </div>
+                    <div class="today-weather__column">
+                        <span>어제보다 1°C 높아요</span>
+                        <span>미세먼지<span>좋음</span></span>
+                    </div>
+                    <div class="today-weather__column">
+                        <i class="fas fa-map-marker-alt fa-lg"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="today-container__weather">
+                <span class="todat-weatger__city">고양</span>
+                <div class="today-weather">
+                    <div class="today-weather__column">
+                        <i class="fas fa-cloud fa-2x"></i>
+                    </div>
+                    <div class="today-weather__column">
+                        <span>12°</span>
+                    </div>
+                    <div class="today-weather__column">
+                        <span>어제보다 1°C 높아요</span>
+                        <span>미세먼지<span>좋음</span></span>
+                    </div>
+                    <div class="today-weather__column">
+                        <i class="fas fa-map-marker-alt fa-lg"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="today-container__news">
+                <span class="today-news__title">Today News</span>
+                <div class="today-news">
+                    <div class="today-news__box">
+                        <img src="images/news_1.jpeg" />
+                        <span>사회적 거리두기 해제, 실외 마스크 허용</span>
+                    </div>
+                    <div class="today-news__box">
+                        <img src="images/news_2.jpeg" />
+                        <span>사회적 거리두기 해제, 실외 마스크 허용</span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="user-component__column">
-            <span>2<i class="fas fa-angle-right"></i></span>
-            <!--<span></span>-->
+        <div class="shop-container">
+            <span class="shop-cotainer__title">Shop</span>
+            <div class="shop-box">
+                <img src="images/shop.jpeg" >
+                <div class="shop-box__info">
+                    <span>[APPLE] MacBook Pro M1 Pro 16형</span>
+                    <span>할인가 3,000,000원</span>
+                </div>
+            </div>
         </div>
+      </div>
     </div>
-    </main>
-    <nav class="screen-nav">
-        <a class="screen-nav__column" href="friends.html">
-            <span><i class="fas fa-user fa-2x"></i></span>
-        </a>
-        <a class="screen-nav__column" href="chats.html">
-            <span><i class="fas fa-comment fa-2x"></i></span>
-            <span class="circle-alarm circle-alarm--number">1</span>
-        </a>
-        <a class="screen-nav__column" href="find.html">
-            <span><i class="fas fa-search fa-2x"></i></span>
-        </a>
-        <a class="screen-nav__column" href="more.html">
-            <span><i class="fas fa-ellipsis-h fa-2x"></i></span>
-            <span class="circle-alarm circle-alarm--dot"></span>
-        </a>
-    </nav>
   </body>
   <script
     src="https://kit.fontawesome.com/1e841ee03e.js"

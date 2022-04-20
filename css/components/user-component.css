@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0px;
+  padding: 12px 0px;
 }
 
 .user-component__column {
@@ -17,7 +17,7 @@
 }
 
 .user-component__column:nth-child(2) span:first-child {
-  opacity: 0.5;
+  color: var(--light-gray);
 }
 
 .user-component__column:nth-child(2) span:nth-child(2) {

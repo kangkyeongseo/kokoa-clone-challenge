@@ -4,7 +4,7 @@
 
 .friends-link {
   padding: 10px 0px;
-  margin-top: 78px;
+  margin-top: 80px;
   background-color: #fafafa;
 }
 
@@ -16,12 +16,12 @@
 }
 
 .friends-link i {
-  opacity: 0.25;
+  color: var(--super-light-gray);
 }
 
 .friends-link span {
   margin: 0px 7px;
-  opacity: 0.9;
+  color: var(--dark-gray);
 }
 
 .friends-channel {
@@ -33,6 +33,9 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 0px;
-  opacity: 0.5;
   font-size: 14px;
+  color: var(--light-gray);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 }
