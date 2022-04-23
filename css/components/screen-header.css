@@ -30,5 +30,13 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .screen-header {
     width: 50%;
+    border-right: var(--default-border);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .screen-header {
+    width: 33%;
+    border-right: var(--default-border);
   }
 }

@@ -20,5 +20,21 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .screen-nav {
     width: 50%;
+    border-right: var(--default-border);
+  }
+
+  .screen-nav--settings {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .screen-nav {
+    width: 33%;
+    border-right: var(--default-border);
+  }
+
+  .screen-nav--settings {
+    width: 100%;
   }
 }
