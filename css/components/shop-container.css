@@ -30,6 +30,10 @@
   border-radius: 10px 10px 0 0;
 }
 
+.shop-box:hover .shop-box__bedge {
+  font-size: 16px;
+}
+
 .shop-box__info {
   width: 100%;
   display: flex;
@@ -58,6 +62,7 @@
   top: 10px;
   left: 10px;
   font-size: 14px;
+  transition: all 0.2s ease-in-out;
 }
 
 .shop-box__bedge--hot {
